@@ -1,0 +1,21 @@
+# CSS Layout/Design
+
+```css
+/* Colors: */
+
+/* background like */
+#010409
+#0d1117
+
+/* background component */
+#161b22
+#292e36
+
+/* link color */
+#4493f8
+#e6edf3
+
+/* text color */
+#30363d
+#c7ced4
+```
