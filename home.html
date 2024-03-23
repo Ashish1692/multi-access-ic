@@ -1,11 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Multi Access Website IC</title>
+    <link rel="stylesheet" href="./src/multi_access_ic_style.css">
+    <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
 </head>
+
 <body>
-    Hello World!
+
+    <main class="flex-column">
+
+        <header>
+            <div>Multi Website IC</div>
+            <div id="current_time_stamp"></div>
+        </header>
+
+        <section id="search">
+                <div>
+                    <input type="text" id="searchInput" placeholder="Search by name...">
+                    <button onclick="searchByName()">Search</button>
+                </div>
+        </section>
+
+        <section id="access_list"><div id="container"></div><div id="error_msg"></div></section>
+        
+    </main>
+
+
+
+
+
+
+
+
+
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <script src="./script.js"></script>
 </body>
+
 </html>
